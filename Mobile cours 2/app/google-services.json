@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "981651647334",
+    "firebase_url": "https://mobilecoursetwofirstversion.firebaseio.com",
+    "project_id": "mobilecoursetwofirstversion",
+    "storage_bucket": "mobilecoursetwofirstversion.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981651647334:android:c34986e2a87ba595",
+        "android_client_info": {
+          "package_name": "yannick.com.courssem2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981651647334-6konk2fbvlj8p4ltpbhgpoaarv7ifb5a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "yannick.com.courssem2",
+            "certificate_hash": "5469e36528087c8b25fd46cf8f0bc1fbca8c39f0"
+          }
+        },
+        {
+          "client_id": "981651647334-s7a7ko3uistq6lrilk68hs3ts6peo8gp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAV61DhHDcOAysfSy2V0wQ616IZarxxXZA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981651647334-s7a7ko3uistq6lrilk68hs3ts6peo8gp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
