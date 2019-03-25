@@ -3,6 +3,7 @@ package yannick.com.courssem2;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -14,7 +15,17 @@ FirebaseAuth auth;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         auth = FirebaseAuth.getInstance();
+        setListener();
+    }
 
+    private void setListener() {
+        findViewById(R.id.button_logOut).setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view)
+            {
+                logOut();
+            }
+        });
     }
 
     @Override
@@ -36,5 +47,11 @@ FirebaseAuth auth;
     {
         Intent intent = new Intent(this,SignUpOrLoginActivity.class);
         startActivity(intent);
+    }
+
+    private void logOut()
+    {
+        auth.signOut();
+        updateUI(auth.getCurrentUser());
     }
 }
